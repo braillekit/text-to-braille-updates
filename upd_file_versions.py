@@ -26,11 +26,24 @@ def get_file_version(filepath):
     return None
 
 def main():
+    print("--- 開始執行檔案更新腳本 ---")
+
+    # 1. 刪除多餘檔案 (.pdb)
+    print("--- 檢查並刪除多餘的 .pdb 檔案 ---")
+    for filename in os.listdir(FILES_DIR):
+        if filename.lower().endswith('.pdb'):
+            filepath = os.path.join(FILES_DIR, filename)
+            try:
+                os.remove(filepath)
+                print(f"刪除多餘檔案: {filename}")
+            except OSError as e:
+                print(f"刪除檔案 {filename} 失敗: {e}")
+
     update_entries = []
     
     print("--- 開始掃描檔案並蒐集資訊 ---")
 
-    # 1. Read target directory and 2. Collect file info with feedback
+    # 2. 讀取目標目錄 and 3. 蒐集檔案資訊並提供回饋
     for filename in os.listdir(FILES_DIR):
         filepath = os.path.join(FILES_DIR, filename)
 
@@ -53,10 +66,10 @@ def main():
     
     print("--- 檔案蒐集完成，開始排序與格式化 ---")
 
-    # 4. Sort entries by filename
+    # 5. 排序
     update_entries.sort(key=lambda x: x[0].lower())
 
-    # 5. Format output
+    # 6. 格式化輸出
     max_filename_len = 0
     if update_entries:
         max_filename_len = max(len(entry[0]) for entry in update_entries)

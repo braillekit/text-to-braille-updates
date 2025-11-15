@@ -12,6 +12,12 @@
 
 > 執行腳本 upd_file_versions.py 來更新檔案列表。
 
+## 手動執行腳本
+
+```bash
+python upd_file_versions.py
+```
+
 
 
 Copyright (c) 2007-2026 Michael Tsai.

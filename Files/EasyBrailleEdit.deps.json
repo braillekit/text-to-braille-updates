@@ -10,7 +10,7 @@
         "dependencies": {
           "BrailleToolkit": "1.0.0",
           "EasyBrailleEdit.Common": "1.0.0",
-          "Huanlin.Common": "5.4.0",
+          "Huanlin.Common": "5.4.1",
           "Huanlin.Windows": "5.4.0",
           "NChinese": "1.2.3",
           "ScintillaNET_FindReplaceDialog-huanlin": "1.6.1",
@@ -45,20 +45,20 @@
           }
         }
       },
-      "Huanlin.Common/5.4.0": {
+      "Huanlin.Common/5.4.1": {
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "6.0.0"
         },
         "runtime": {
           "lib/net10.0/Huanlin.Common.dll": {
             "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.4.0.0"
+            "fileVersion": "5.4.1.0"
           }
         }
       },
       "Huanlin.Windows/5.4.0": {
         "dependencies": {
-          "Huanlin.Common": "5.4.0",
+          "Huanlin.Common": "5.4.1",
           "System.Management": "10.0.0"
         },
         "runtime": {
@@ -816,7 +816,7 @@
       "BrailleToolkit/1.0.0": {
         "dependencies": {
           "EasyBrailleEdit.Common": "1.0.0",
-          "Huanlin.Common": "5.4.0",
+          "Huanlin.Common": "5.4.1",
           "NChinese": "1.2.3",
           "Serilog": "4.3.0",
           "Serilog.Sinks.File": "7.0.0"
@@ -859,12 +859,12 @@
       "path": "fernandreu.scintillanet/4.2.0",
       "hashPath": "fernandreu.scintillanet.4.2.0.nupkg.sha512"
     },
-    "Huanlin.Common/5.4.0": {
+    "Huanlin.Common/5.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VObnQCKXTgkOcOOP5fymVFfB3VmocHbCKkTJt3mVKrRJFa7PFnyf44xDemNAcAdH8/1F4692YuBmxmJqfzmwBg==",
-      "path": "huanlin.common/5.4.0",
-      "hashPath": "huanlin.common.5.4.0.nupkg.sha512"
+      "sha512": "sha512-maGJwFMGCBmSpaEG66OcHWFoS1Zx464/yG3xXhfL0G88/UeFWYBUjuCjPToT0sLYSQutP8XGRytu73Ifeq6t+w==",
+      "path": "huanlin.common/5.4.1",
+      "hashPath": "huanlin.common.5.4.1.nupkg.sha512"
     },
     "Huanlin.Windows/5.4.0": {
       "type": "package",
