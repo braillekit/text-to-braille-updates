@@ -11,7 +11,7 @@
           "BrailleToolkit": "1.0.0",
           "CommandLineParser": "2.9.1",
           "EasyBrailleEdit.Common": "1.0.0",
-          "Huanlin.Common": "5.4.0",
+          "Huanlin.Common": "5.4.1",
           "NChinese": "1.2.3",
           "Serilog": "4.3.0",
           "Serilog.Settings.AppSettings": "3.0.0",
@@ -42,14 +42,14 @@
           }
         }
       },
-      "Huanlin.Common/5.4.0": {
+      "Huanlin.Common/5.4.1": {
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "6.0.0"
         },
         "runtime": {
           "lib/net10.0/Huanlin.Common.dll": {
             "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.4.0.0"
+            "fileVersion": "5.4.1.0"
           }
         }
       },
@@ -164,7 +164,7 @@
       "BrailleToolkit/1.0.0": {
         "dependencies": {
           "EasyBrailleEdit.Common": "1.0.0",
-          "Huanlin.Common": "5.4.0",
+          "Huanlin.Common": "5.4.1",
           "NChinese": "1.2.3",
           "Serilog": "4.3.0",
           "Serilog.Sinks.File": "7.0.0"
@@ -207,12 +207,12 @@
       "path": "commandlineparser/2.9.1",
       "hashPath": "commandlineparser.2.9.1.nupkg.sha512"
     },
-    "Huanlin.Common/5.4.0": {
+    "Huanlin.Common/5.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VObnQCKXTgkOcOOP5fymVFfB3VmocHbCKkTJt3mVKrRJFa7PFnyf44xDemNAcAdH8/1F4692YuBmxmJqfzmwBg==",
-      "path": "huanlin.common/5.4.0",
-      "hashPath": "huanlin.common.5.4.0.nupkg.sha512"
+      "sha512": "sha512-maGJwFMGCBmSpaEG66OcHWFoS1Zx464/yG3xXhfL0G88/UeFWYBUjuCjPToT0sLYSQutP8XGRytu73Ifeq6t+w==",
+      "path": "huanlin.common/5.4.1",
+      "hashPath": "huanlin.common.5.4.1.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/6.0.0": {
       "type": "package",
