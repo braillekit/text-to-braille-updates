@@ -2,6 +2,7 @@ app.ico                                            ; ?
 AppConfig.Default.ini                              ; ?
 AppConfig.ini                                      ; ?
 BrailleToolkit.dll                                 ; 4.9.5.0
+ChangeLog.md                                       ; ?
 CommandLine.dll                                    ; 2.9.1.0
 EasyBrailleEdit.Common.dll                         ; 4.9.5.0
 EasyBrailleEdit.deps.json                          ; ?
@@ -10,7 +11,7 @@ EasyBrailleEdit.dll.config                         ; ?
 EasyBrailleEdit.exe                                ; 4.9.5.0
 EasyBrailleEdit.runtimeconfig.json                 ; ?
 Huanlin.Common.dll                                 ; 5.4.1.0
-Huanlin.Windows.dll                                ; 5.4.0.0
+Huanlin.Windows.dll                                ; 5.4.1.0
 Microsoft.Bcl.AsyncInterfaces.dll                  ; 5.0.20.51904
 Microsoft.Extensions.ObjectPool.dll                ; 5.0.1021.41022
 Microsoft.Windows.SDK.NET.dll                      ; 10.0.17763.55
