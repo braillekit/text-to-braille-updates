@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "EasyBrailleEdit/4.9.5-alpha.0.41": {
+      "EasyBrailleEdit/5.0.1-alpha.0.29": {
         "dependencies": {
           "BrailleToolkit": "1.0.0",
           "EasyBrailleEdit.Common": "1.0.0",
-          "Huanlin.Common": "5.4.1",
-          "Huanlin.Windows": "5.4.1",
+          "Huanlin.Common": "5.5.1",
+          "Huanlin.Windows": "5.5.1",
           "NChinese": "1.2.3",
           "ScintillaNET_FindReplaceDialog-huanlin": "1.6.1",
           "Serilog": "4.3.0",
@@ -45,26 +45,26 @@
           }
         }
       },
-      "Huanlin.Common/5.4.1": {
+      "Huanlin.Common/5.5.1": {
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "6.0.0"
         },
         "runtime": {
           "lib/net10.0/Huanlin.Common.dll": {
             "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.4.1.0"
+            "fileVersion": "5.5.1.0"
           }
         }
       },
-      "Huanlin.Windows/5.4.1": {
+      "Huanlin.Windows/5.5.1": {
         "dependencies": {
-          "Huanlin.Common": "5.4.1",
+          "Huanlin.Common": "5.5.1",
           "System.Management": "10.0.0"
         },
         "runtime": {
           "lib/net10.0-windows10.0.17763/Huanlin.Windows.dll": {
             "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.4.1.0"
+            "fileVersion": "5.5.1.0"
           }
         }
       },
@@ -813,18 +813,27 @@
           }
         }
       },
+      "YamlDotNet/16.3.0": {
+        "runtime": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.3.0.0"
+          }
+        }
+      },
       "BrailleToolkit/1.0.0": {
         "dependencies": {
           "EasyBrailleEdit.Common": "1.0.0",
-          "Huanlin.Common": "5.4.1",
+          "Huanlin.Common": "5.5.1",
           "NChinese": "1.2.3",
           "Serilog": "4.3.0",
-          "Serilog.Sinks.File": "7.0.0"
+          "Serilog.Sinks.File": "7.0.0",
+          "YamlDotNet": "16.3.0"
         },
         "runtime": {
           "BrailleToolkit.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.9.5.0"
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
           }
         }
       },
@@ -834,15 +843,15 @@
         },
         "runtime": {
           "EasyBrailleEdit.Common.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.9.5.0"
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "EasyBrailleEdit/4.9.5-alpha.0.41": {
+    "EasyBrailleEdit/5.0.1-alpha.0.29": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -859,19 +868,19 @@
       "path": "fernandreu.scintillanet/4.2.0",
       "hashPath": "fernandreu.scintillanet.4.2.0.nupkg.sha512"
     },
-    "Huanlin.Common/5.4.1": {
+    "Huanlin.Common/5.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-maGJwFMGCBmSpaEG66OcHWFoS1Zx464/yG3xXhfL0G88/UeFWYBUjuCjPToT0sLYSQutP8XGRytu73Ifeq6t+w==",
-      "path": "huanlin.common/5.4.1",
-      "hashPath": "huanlin.common.5.4.1.nupkg.sha512"
+      "sha512": "sha512-MRjcbX8c91hZdKxvPds+zOPBSgoK2iJafArdjQfsy+FPIsDUFabdeptshpvdZVJS2LSTrR8tCTOpHT3YtR4WXQ==",
+      "path": "huanlin.common/5.5.1",
+      "hashPath": "huanlin.common.5.5.1.nupkg.sha512"
     },
-    "Huanlin.Windows/5.4.1": {
+    "Huanlin.Windows/5.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iK2yzp1CqcsM7vgiPV06Uid9zMp8jXv0hcWzSTnxAlhpID5Q5BJ4R67YBZoarWtgVDHiuxUbC3exDoFFi9NbjA==",
-      "path": "huanlin.windows/5.4.1",
-      "hashPath": "huanlin.windows.5.4.1.nupkg.sha512"
+      "sha512": "sha512-PuUl8Yz7hl1Wl8MM1zAqDbmuYVs3B/7A9j+jj0LZY6BM3kziykFk08Vwoj+ZKJFsqAxuksiFOV7yBOZlE3/UNA==",
+      "path": "huanlin.windows/5.5.1",
+      "hashPath": "huanlin.windows.5.5.1.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/6.0.0": {
       "type": "package",
@@ -1257,6 +1266,13 @@
       "sha512": "sha512-ORCkTkUo9f1o4ACG+H6SV+0XSxVZ461w3cHzYxEU41y6aKWp1CeNTMYbtdxMw1we6c6t4Hqq15PdcLVcdqno/g==",
       "path": "system.web.services.description/4.10.3",
       "hashPath": "system.web.services.description.4.10.3.nupkg.sha512"
+    },
+    "YamlDotNet/16.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA==",
+      "path": "yamldotnet/16.3.0",
+      "hashPath": "yamldotnet.16.3.0.nupkg.sha512"
     },
     "BrailleToolkit/1.0.0": {
       "type": "project",
